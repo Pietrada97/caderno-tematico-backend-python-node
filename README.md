@@ -29,35 +29,25 @@ https://fullstackopen.com/en/part4
 
 Todas as fontes são oficiais ou de instituições reconhecidas, priorizando qualidade e atualização.
 
-
-Feito com ☕ e NotebookLM
-Desafio de Projeto – DIO
-
 3. Engenharia de Prompts e "Cicatrizes"
 Nesta seção documento o processo real de interação com o NotebookLM, incluindo os prompts utilizados, as respostas obtidas e os ajustes realizados.
 Prompt 1 – Comparativo FastAPI vs Express
 Prompt utilizado:
-
 Com base nas fontes, faça um comparativo objetivo entre FastAPI e Express.js considerando: performance, facilidade de desenvolvimento, documentação automática, tipagem/validação, ecossistema e quando escolher cada um. Use tabela.
-
 Resultado:
 A resposta veio bem estruturada, com tabela clara e critérios objetivos. Destacou corretamente a documentação automática do FastAPI e o caráter minimalista do Express.
 Cicatriz / Aprendizado:
 A resposta ficou boa, mas poderia ter sido mais profunda em performance real e na menção ao TypeScript. Em uma próxima tentativa, pediria exemplos de código curtos e comparação de curva de aprendizado.
 
 Prompt 2 – Estrutura de Projeto
-
+Prompt utilizado:
 Explique a estrutura de pastas recomendada para um projeto profissional com FastAPI e outro com Express (Node.js). Inclua exemplos de organização de rotas, controllers, services e middlewares.
-
 Resultado:
 Excelente. Trouxe estruturas reais e profissionais, separando bem as responsabilidades. Mostrou claramente a diferença de filosofia entre os dois frameworks (FastAPI mais organizado x Express mais livre).
 Cicatriz / Aprendizado:
 A resposta ficou completa, mas faltou um exemplo mínimo de código de como importar o APIRouter no FastAPI e o express.Router no Express. Em ajustes futuros, pediria o código de exemplo junto com a estrutura de pastas.
-
 Prompt 3 – Validação de Dados
-
-Como funciona a validação de dados de entrada em FastAPI (Pydantic) versus Express? Dê exemplos práticos de validação de body, query e path params.
-
+Prompt utilizado:Como funciona a validação de dados de entrada em FastAPI (Pydantic) versus Express? Dê exemplos práticos de validação de body, query e path params.
 Resultado:
 Uma das melhores respostas. Trouxe exemplos de código claros, comparou bem a abordagem declarativa (FastAPI) com a abordagem via middleware (Express) e explicou as diferenças de erro automático vs manual.
 Cicatriz / Aprendizado:
@@ -69,7 +59,6 @@ Pedir tabela e comparação lado a lado melhora muito a qualidade da resposta
 Sempre reforçar “com base nas fontes” evita alucinações
 Solicitar exemplos práticos de código torna o conteúdo mais útil
 Quando a resposta fica boa mas incompleta, o melhor é fazer um prompt de refinamento
-
 
 4. Miniguia de Estudo
 4.1 Resumos Estruturados
